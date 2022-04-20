@@ -42,9 +42,15 @@ body {
       > .row {
         display: flex;
         gap: 0;
+        > .darker:active {
+          background-color: #878a8f;
+        }
         > .orange {
           background-color: #f19a36;
           font-size: 25px;
+        }
+        > .orange:active {
+          background-color: #c47c2b;
         }
         > button {
           height: 50px;
@@ -53,6 +59,9 @@ body {
           background-color: #878a8f;
           color: white;
           border: 0.5px solid #3b3e41;
+        }
+        > button:active {
+          background-color: #999ca1;
         }
       }
       > .row-one {

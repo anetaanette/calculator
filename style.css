@@ -68,9 +68,17 @@ body .wrapper > .bottom > .row {
   gap: 0;
 }
 
+body .wrapper > .bottom > .row > .darker:active {
+  background-color: #878a8f;
+}
+
 body .wrapper > .bottom > .row > .orange {
-  background-color: #f19736;
+  background-color: #f19a36;
   font-size: 25px;
+}
+
+body .wrapper > .bottom > .row > .orange:active {
+  background-color: #c47c2b;
 }
 
 body .wrapper > .bottom > .row > button {
@@ -80,6 +88,10 @@ body .wrapper > .bottom > .row > button {
   background-color: #878a8f;
   color: white;
   border: 0.5px solid #3b3e41;
+}
+
+body .wrapper > .bottom > .row > button:active {
+  background-color: #999ca1;
 }
 
 body .wrapper > .bottom > .row-one > button {
